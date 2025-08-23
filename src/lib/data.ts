@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail, Twitter, Award, Code, Briefcase, User, MessageSquare, BrainCircuit, Rss } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
-export const NAME = "John Doe";
+export const NAME = "S M Siddalingaswamy";
 export const INTRO = "I'm a passionate Computer Science student with a focus on web development and artificial intelligence. I love building things that solve real-world problems.";
 export const LOCATION = "San Francisco, CA";
 export const CONTACT_EMAIL = "smsiddu2266@gmail.com";
@@ -14,7 +14,7 @@ export const SOCIAL_LINKS: { name: string; url: string; icon: LucideIcon }[] = [
 
 export const ABOUT_ME = {
   image: 'https://placehold.co/300x300.png',
-  bio: "Hello! I'm John Doe, a dedicated and curious Computer Science student based in San Francisco. My journey in tech began with a simple 'Hello, World!' and has since evolved into a passion for creating elegant, efficient, and user-centric applications. I thrive on challenges and am constantly exploring new technologies to broaden my skillset.",
+  bio: "Hello! I'm S M Siddalingaswamy, a dedicated and curious Computer Science student based in San Francisco. My journey in tech began with a simple 'Hello, World!' and has since evolved into a passion for creating elegant, efficient, and user-centric applications. I thrive on challenges and am constantly exploring new technologies to broaden my skillset.",
   background: "I am currently pursuing my Bachelor's degree in Computer Science at a prestigious university. My coursework has provided me with a strong foundation in data structures, algorithms, software engineering, and machine learning. Outside of academics, I actively contribute to open-source projects and participate in hackathons, which have been invaluable for my practical learning.",
   goals: "My primary goal is to leverage my skills in a challenging role as a software engineer, where I can contribute to meaningful projects and continue to grow as a developer. I am particularly interested in the fields of AI-driven applications and full-stack web development. In the long term, I aspire to lead a team and mentor upcoming developers.",
 };
