@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { useEffect } from 'react';
 import { handleResumeAnalysis, type FormState } from '@/app/actions';
 import { Textarea } from '@/components/ui/textarea';
@@ -26,11 +27,11 @@ export function ResumeSkillExtractor() {
     skills: null,
     errors: null,
   };
-  const [state, formAction] = useFormState(handleResumeAnalysis, initialState);
+  const [state, formAction] = useActionState(handleResumeAnalysis, initialState);
   const { toast } = useToast();
 
   useEffect(() => {
-    if (state.message) {
+    if (state.timestamp) { // Only run when the action has been executed
         if(state.errors) {
             toast({
                 title: 'Error',
@@ -42,9 +43,14 @@ export function ResumeSkillExtractor() {
                 title: 'Success',
                 description: state.message,
             });
+        } else if (state.message) {
+            toast({
+                title: 'Info',
+                description: state.message,
+            });
         }
     }
-  }, [state.timestamp]); // Rerun effect only when state is updated
+  }, [state]);
 
   return (
     <Card className="max-w-4xl mx-auto shadow-lg">
