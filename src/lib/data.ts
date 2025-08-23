@@ -4,7 +4,7 @@ import type { LucideIcon } from 'lucide-react';
 export const NAME = "John Doe";
 export const INTRO = "I'm a passionate Computer Science student with a focus on web development and artificial intelligence. I love building things that solve real-world problems.";
 export const LOCATION = "San Francisco, CA";
-export const CONTACT_EMAIL = "john.doe@email.com";
+export const CONTACT_EMAIL = "smsiddu2266@gmail.com";
 
 export const SOCIAL_LINKS: { name: string; url: string; icon: LucideIcon }[] = [
   { name: 'GitHub', url: 'https://github.com', icon: Github },

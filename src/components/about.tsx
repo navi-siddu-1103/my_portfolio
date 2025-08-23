@@ -12,7 +12,7 @@ export function About() {
             <CardContent className="p-0">
                <Image
                 src={ABOUT_ME.image}
-                alt="Professional photo of John Doe"
+                alt="Professional photo of S M Siddalingaswamy"
                 width={300}
                 height={300}
                 className="object-cover w-full h-full"
