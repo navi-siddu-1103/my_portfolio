@@ -29,9 +29,9 @@ export function Header() {
           <Code2 className="h-6 w-6 text-accent" />
           CodeFolio
         </Link>
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-2">
           {NAV_LINKS.map((link) => (
-            <Link key={link.href} href={link.href} className="text-sm font-medium text-foreground hover:text-accent transition-colors">
+            <Link key={link.href} href={link.href} className="text-sm font-medium text-foreground hover:bg-muted/50 hover:text-accent transition-colors px-3 py-2 rounded-md">
               {link.label}
             </Link>
           ))}
@@ -46,7 +46,7 @@ export function Header() {
         <div className="md:hidden bg-background border-t">
           <nav className="flex flex-col items-center gap-4 p-4">
             {NAV_LINKS.map((link) => (
-              <Link key={link.href} href={link.href} onClick={() => setIsMenuOpen(false)} className="text-base font-medium text-foreground hover:text-accent transition-colors">
+              <Link key={link.href} href={link.href} onClick={() => setIsMenuOpen(false)} className="text-base font-medium text-foreground hover:bg-muted/50 hover:text-accent transition-colors px-4 py-2 rounded-md w-full text-center">
                 {link.label}
               </Link>
             ))}
