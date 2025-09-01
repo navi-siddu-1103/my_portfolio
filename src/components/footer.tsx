@@ -1,8 +1,16 @@
+
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { SOCIAL_LINKS, NAME } from '@/lib/data';
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="bg-muted border-t">
