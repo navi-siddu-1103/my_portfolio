@@ -23,7 +23,7 @@ export function Projects() {
                   data-ai-hint={project.dataAiHint}
                 />
               </div>
-              <CardTitle className="text-xl font-bold text-primary-foreground">{project.title}</CardTitle>
+              <CardTitle className="text-xl font-bold text-primary">{project.title}</CardTitle>
               <CardDescription>{project.description}</CardDescription>
             </CardHeader>
             <CardContent className="flex-grow">
