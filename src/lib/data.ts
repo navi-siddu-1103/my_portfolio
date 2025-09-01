@@ -19,71 +19,81 @@ export const ABOUT_ME = {
 };
 
 export const SKILLS = {
-  languages: ['Python', 'Java', 'C++', 'JavaScript', 'HTML/CSS'],
-  frameworks: ['Node.js', 'React', 'Next.js', 'Tailwind CSS'],
-  databases: ['Firebase'],
-  tools: ['Git', 'GitHub', 'Android Development', 'Docker'],
+  languages: ['Python', 'Java', 'C++', 'JavaScript', 'SQL', 'HTML', 'CSS'],
+  frameworks: ['Django', 'Node.js'],
+  databases: ['MongoDB', 'Firebase'],
+  tools: ['Docker', 'Git', 'GitHub', 'Android Studio', 'REST APIs', 'GitHub Copilot', 'Claude', 'Gemini', 'Canva'],
 };
 
 export const PROJECTS = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-featured online store with product listings, a shopping cart, and a secure checkout process. Integrated with Stripe for payments.',
-    techStack: ['Next.js', 'TypeScript', 'Stripe', 'MongoDB', 'Tailwind CSS'],
+    title: 'Text Summarization of News Articles',
+    description: 'Created an ML-based system that generates concise summaries of long articles. Applied NLP to capture key points and improve readability.',
+    techStack: ['Machine Learning', 'NLP'],
+    repoUrl: 'https://github.com',
+    liveUrl: 'https://example.com',
+    image: 'https://placehold.co/600x400.png',
+    dataAiHint: 'news article',
+  },
+  {
+    title: 'AI-Powered E-Commerce Website',
+    description: 'Engineered an e-commerce site with Firebase Authentication, Firestore, and Hosting. Optimized product search & recommendations using AI-assisted development. Designed responsive UI with Canva & Gemini.',
+    techStack: ['Firebase', 'Canva', 'Gemini'],
     repoUrl: 'https://github.com',
     liveUrl: 'https://example.com',
     image: 'https://placehold.co/600x400.png',
     dataAiHint: 'online store',
   },
   {
-    title: 'AI-Powered Chatbot',
-    description: 'An intelligent chatbot for customer service, capable of understanding natural language and providing instant support.',
-    techStack: ['Python', 'Flask', 'Genkit', 'React', 'Docker'],
+    title: 'Voice-Controlled PDF Reader',
+    description: 'Implemented speech recognition APIs for PDF navigation. Enabled page-turning, scrolling, and quick navigation via voice commands.',
+    techStack: ['Speech Recognition', 'PDF'],
     repoUrl: 'https://github.com',
     liveUrl: 'https://example.com',
     image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'chatbot conversation',
+    dataAiHint: 'pdf reader',
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management tool that helps teams organize their work with boards, lists, and cards.',
-    techStack: ['React', 'Firebase', 'Node.js', 'Express'],
-    repoUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
-    image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'task board',
-  },
-  {
-    title: 'Portfolio Website',
-    description: 'This very portfolio website, designed to showcase my skills and projects. Built with performance and aesthetics in mind.',
-    techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Genkit'],
+    title: 'Real-Time Chat Application',
+    description: 'Built with Node.js, Socket.io, and Firebase for real-time messaging. Implemented authentication and message persistence.',
+    techStack: ['Node.js', 'Socket.io', 'Firebase'],
     repoUrl: 'https://github.com',
     liveUrl: '#',
     image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'code editor',
+    dataAiHint: 'chat application',
   },
 ];
 
 export const ACHIEVEMENTS = [
   {
-    title: 'Winner, TechSprint Hackathon 2023',
-    description: 'Developed a prize-winning mobile app for local community engagement in under 48 hours.',
-    icon: Award,
+    title: 'Google AI/ML Virtual Training (Feb - Apr 2024)',
+    description: 'Hands-on with ML tools & frameworks.',
+    icon: BrainCircuit,
   },
   {
-    title: 'Certified TensorFlow Developer',
-    description: 'Completed the official TensorFlow Developer certification, demonstrating proficiency in building and training machine learning models.',
-    icon: Rss,
-  },
-  {
-    title: 'Top 5% in University Coding Competition',
-    description: 'Placed among the top competitors in a university-wide algorithmic programming contest.',
+    title: 'Google Android Development Internship (Jul - Sep 2024)',
+    description: 'Java/Kotlin, Android Studio.',
     icon: Code,
   },
   {
-    title: 'Open Source Contributor',
-    description: 'Actively contributed to several open-source projects, including documentation, bug fixes, and feature development.',
-    icon: BrainCircuit,
+    title: 'Juniper Networking Virtual Internship (Jan - Mar 2025)',
+    description: 'Routing, switching, Junos OS.',
+    icon: Rss,
+  },
+  {
+    title: 'Palo Alto Cybersecurity Virtual Internship (Apr - Jun 2025)',
+    description: 'Firewalls, threat analysis, incident response.',
+    icon: Award,
+  },
+  {
+    title: 'Class Representative',
+    description: 'Served as Class Representative, coordinating between faculty and peers.',
+    icon: User,
+  },
+  {
+    title: 'Hackathon Participant',
+    description: 'Participated in Hackathon, built prototype women safety mobile app (alert system).',
+    icon: Briefcase,
   },
 ];
 
