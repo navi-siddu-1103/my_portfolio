@@ -43,12 +43,14 @@ export function Projects() {
                   GitHub
                 </Link>
               </Button>
-              <Button asChild size="sm">
-                <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                  <ExternalLink />
-                  Live Demo
-                </Link>
-              </Button>
+              {project.liveUrl && (
+                <Button asChild size="sm">
+                  <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink />
+                    Live Demo
+                  </Link>
+                </Button>
+              )}
             </CardFooter>
           </Card>
         ))}
