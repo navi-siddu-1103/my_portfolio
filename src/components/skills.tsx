@@ -19,8 +19,8 @@ export function Skills() {
         {skillCategories.map((category, index) => (
           <Card key={category.title} className="shadow-md hover:shadow-xl transition-shadow duration-300 animate-fade-in bg-card" style={{ animationDelay: `${index * 150}ms` }}>
             <CardHeader className="flex flex-row items-center gap-4">
-              <category.icon className="w-8 h-8 text-primary-foreground" />
-              <CardTitle className="text-xl font-semibold text-primary-foreground">{category.title}</CardTitle>
+              <category.icon className="w-8 h-8 text-primary" />
+              <CardTitle className="text-xl font-semibold text-primary">{category.title}</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="flex flex-wrap gap-2">
