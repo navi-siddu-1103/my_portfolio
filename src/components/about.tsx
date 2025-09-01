@@ -5,10 +5,10 @@ import { Card, CardContent } from './ui/card';
 
 export function About() {
   return (
-    <SectionWrapper id="about" title="About Me" className="bg-muted">
+    <SectionWrapper id="about" title="About Me" className="bg-background">
       <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
         <div className="md:col-span-1 flex justify-center animate-fade-in">
-          <Card className="rounded-full shadow-lg overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[300px]">
+          <Card className="rounded-full shadow-lg overflow-hidden w-[250px] h-[250px] md:w-[300px] md:h-[300px] border-4 border-secondary">
             <CardContent className="p-0">
                <Image
                 src={ABOUT_ME.image}
