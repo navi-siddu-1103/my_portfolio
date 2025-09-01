@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, Twitter, Award, Code, Briefcase, User, MessageS
 import type { LucideIcon } from 'lucide-react';
 
 export const NAME = "S M Siddalingaswamy";
-export const INTRO = "Final-year Computer Science student (CGPA 8.32) with expertise in Software Development, DSA, and Cloud-based Applications. Skilled in Python, Java, C++, Firebase, and Android Development.";
+export const INTRO = "A final-year Computer Science student specializing in Software Development, Data Structures & Algorithms, and Cloud-based Applications. Proficient in Python, Java, C++, Firebase, and Android Development.";
 export const LOCATION = "Bangalore, Karnataka";
 export const CONTACT_EMAIL = "smsiddu2266@gmail.com";
 
