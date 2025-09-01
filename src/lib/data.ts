@@ -12,7 +12,7 @@ export const SOCIAL_LINKS: { name: string; url: string; icon: LucideIcon }[] = [
 ];
 
 export const ABOUT_ME = {
-  image: '/profile.png',
+  image: '/profile.jpeg',
   bio: "Aspiring Software Engineer and a final-year Computer Science student at A.M.C. Engineering College with a CGPA of 8.32. I have a strong foundation in software development, data structures, algorithms, and cloud-based applications.",
   background: "I'm currently a Web Development Intern at SkillsForge, where I collaborate on front-end and back-end development, design and optimize UI components, integrate REST APIs, and apply problem-solving techniques to resolve cross-browser compatibility issues.",
   goals: "I am seeking a Google Apprenticeship to apply my problem-solving and engineering skills in real-world scalable systems. My expertise includes Python, Java, C++, Firebase, and Android Development.",
