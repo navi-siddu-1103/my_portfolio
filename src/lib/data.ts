@@ -22,7 +22,7 @@ export const SKILLS = {
   languages: ['Python', 'Java', 'C++', 'JavaScript', 'SQL', 'HTML', 'CSS'],
   frameworks: ['Django', 'Node.js'],
   databases: ['MongoDB', 'Firebase'],
-  tools: ['Docker', 'Git', 'GitHub', 'Android Studio', 'REST APIs', 'GitHub Copilot', 'Claude', 'Gemini', 'Canva'],
+  tools: ['XAMPP', 'Docker', 'Git', 'GitHub', 'Android Studio', 'REST APIs', 'GitHub Copilot', 'Claude', 'Gemini', 'Canva'],
 };
 
 export const PROJECTS = [
