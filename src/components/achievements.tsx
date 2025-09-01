@@ -14,7 +14,7 @@ export function Achievements() {
                 <achievement.icon className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-lg text-primary-foreground">{achievement.title}</h3>
+                <h3 className="font-semibold text-lg text-primary">{achievement.title}</h3>
                 <p className="text-muted-foreground">{achievement.description}</p>
               </div>
             </li>
