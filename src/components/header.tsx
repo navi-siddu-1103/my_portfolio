@@ -25,8 +25,8 @@ export function Header() {
       isScrolled ? "bg-background/95 backdrop-blur-md border-b" : "bg-transparent"
     )}>
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg sm:text-xl text-primary">
-          <Code2 className="h-5 w-5 sm:h-6 sm:w-6 text-accent" />
+        <Link href="/" className="flex items-center gap-2 font-bold text-lg sm:text-xl text-white hover:text-gray-200 transition-colors">
+          <Code2 className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
           CodeFolio
         </Link>
         <nav className="hidden md:flex items-center gap-1 lg:gap-2">

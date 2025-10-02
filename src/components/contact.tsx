@@ -19,12 +19,12 @@ export function Contact() {
             </p>
             <div className="space-y-4">
               <a href={`mailto:${CONTACT_EMAIL}`} className="flex items-center gap-3 group p-2 rounded-lg hover:bg-muted/50 transition-colors touch-manipulation">
-                <Mail className="w-5 h-5 text-accent flex-shrink-0" />
+                <Mail className="w-5 h-5 text-white group-hover:text-gray-200 transition-colors flex-shrink-0" />
                 <span className="text-foreground group-hover:text-accent transition-colors text-sm sm:text-base break-all">{CONTACT_EMAIL}</span>
               </a>
               {SOCIAL_LINKS.map(link => (
                  <a key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group p-2 rounded-lg hover:bg-muted/50 transition-colors touch-manipulation">
-                  <link.icon className="w-5 h-5 text-accent flex-shrink-0" />
+                  <link.icon className="w-5 h-5 text-white group-hover:text-gray-200 transition-colors flex-shrink-0" />
                   <span className="text-foreground group-hover:text-accent transition-colors text-sm sm:text-base">{link.name}</span>
                 </a>
               ))}

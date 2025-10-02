@@ -15,10 +15,7 @@ export function Footer() {
   return (
     <footer className="bg-muted border-t mt-auto">
       <div className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-6">
-          <p className="text-xs sm:text-sm text-muted-foreground text-center sm:text-left">
-            &copy; {currentYear} {NAME}. All Rights Reserved.
-          </p>
+        <div className="flex flex-col items-center justify-center gap-4">
           <div className="flex gap-3 sm:gap-4">
             {SOCIAL_LINKS.map((link) => (
               <Link key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" aria-label={link.name} className="p-2 rounded-lg hover:bg-background transition-colors touch-manipulation">
@@ -26,6 +23,9 @@ export function Footer() {
               </Link>
             ))}
           </div>
+          <p className="text-xs sm:text-sm text-muted-foreground text-center">
+            &copy; {currentYear} {NAME}. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>
