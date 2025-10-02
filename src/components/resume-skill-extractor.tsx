@@ -96,35 +96,35 @@ export function ResumeSkillExtractor() {
 
   return (
     <Card className="max-w-4xl mx-auto shadow-lg">
-      <CardHeader>
-        <CardTitle className="flex items-center gap-2 text-2xl">
-          <Sparkles className="text-accent" />
-          Smart Skill Analysis
+      <CardHeader className="p-4 sm:p-6">
+        <CardTitle className="flex items-center gap-2 text-xl sm:text-2xl">
+          <Sparkles className="text-accent h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" />
+          <span className="line-clamp-2">Smart Skill Analysis</span>
         </CardTitle>
-        <CardDescription>
+        <CardDescription className="text-sm sm:text-base">
           Paste your resume text below to extract key technical skills.
         </CardDescription>
       </CardHeader>
       
-      <CardContent className="space-y-4">
+      <CardContent className="space-y-4 p-4 sm:p-6 pt-0">
         <Textarea
           value={resumeText}
           onChange={(e) => setResumeText(e.target.value)}
           placeholder="Paste your full resume text here..."
-          rows={12}
-          className="text-sm resize-none"
+          rows={8}
+          className="text-sm resize-none min-h-[200px] sm:min-h-[300px]"
         />
         
         {error && (
-          <p className="text-sm text-destructive">{error}</p>
+          <p className="text-sm text-destructive bg-destructive/10 p-3 rounded-lg">{error}</p>
         )}
       </CardContent>
       
-      <CardFooter className="flex justify-end">
+      <CardFooter className="p-4 sm:p-6 pt-0">
         <Button 
           onClick={analyzeResume} 
           disabled={isAnalyzing || !resumeText.trim()}
-          className="w-full md:w-auto"
+          className="w-full h-12 text-base touch-manipulation"
         >
           {isAnalyzing ? (
             <>
@@ -141,10 +141,10 @@ export function ResumeSkillExtractor() {
       </CardFooter>
 
       {skills.length > 0 && (
-        <div className="px-6 pb-6">
-          <Alert>
-            <Sparkles className="h-4 w-4" />
-            <AlertTitle className="font-bold">
+        <div className="p-4 sm:p-6 pt-0">
+          <Alert className="border-accent/20 bg-accent/5">
+            <Sparkles className="h-4 w-4 text-accent" />
+            <AlertTitle className="font-bold text-base sm:text-lg">
               Extracted Skills ({skills.length})
             </AlertTitle>
             <AlertDescription>
@@ -153,13 +153,13 @@ export function ResumeSkillExtractor() {
                   <Badge 
                     key={index} 
                     variant="secondary"
-                    className="text-xs"
+                    className="text-xs sm:text-sm px-2 py-1"
                   >
                     {skill}
                   </Badge>
                 ))}
               </div>
-              <p className="text-sm text-muted-foreground mt-3">
+              <p className="text-sm text-muted-foreground mt-4 leading-relaxed">
                 These skills were detected from your resume text.
               </p>
             </AlertDescription>
