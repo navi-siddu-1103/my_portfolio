@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
   distDir: 'dist',
+  basePath: '/my_portfolio',
+  assetPrefix: '/my_portfolio',
   typescript: {
     ignoreBuildErrors: true,
   },
