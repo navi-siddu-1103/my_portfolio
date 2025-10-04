@@ -14,16 +14,16 @@ export const SOCIAL_LINKS: { name: string; url: string; icon: LucideIcon }[] = [
 
 export const ABOUT_ME = {
   image: profileImage,
-  bio: "Aspiring Software Engineer and a final-year Computer Science student at A.M.C. Engineering College with a CGPA of 8.32. I have a strong foundation in software development, data structures, algorithms, and cloud-based applications.",
-  background: "I'm currently a Web Development Intern at SkillsForge, where I collaborate on front-end and back-end development, design and optimize UI components, integrate REST APIs, and apply problem-solving techniques to resolve cross-browser compatibility issues.",
-  goals: "I am seeking a Google Apprenticeship to apply my problem-solving and engineering skills in real-world scalable systems. My expertise includes Python, Java, C++, Firebase, and Android Development.",
+  bio: "💻 I’m a Computer Science student and Student Automation Developer Associate, passionate about software engineering, automation, and AI-powered application development. With hands-on experience in Python, Java, C++, SQL, Firebase, and REST APIs, I enjoy solving problems, building scalable systems, and exploring the intersection of Generative AI and software development.",
+  background: "I'm completed a Web Development Intern at SkillsForge, where I collaborate on front-end and back-end development, design and optimize UI components, integrate REST APIs, and apply problem-solving techniques to resolve cross-browser compatibility issues.",
+  goals: "I'm committed to continuous learning and applying problem-solving skills to create innovative solutions that make a real-world impact. My goal is to contribute to meaningful projects that leverage AI and modern technologies to solve complex problems and improve user experiences.",
 };
 
 export const SKILLS = {
-  languages: ['Python', 'Java', 'C++', 'JavaScript', 'SQL', 'HTML', 'CSS'],
+  languages: ['Python', 'Java', 'C++', 'JavaScript'],
   frameworks: ['Django', 'Node.js'],
-  databases: ['MongoDB', 'Firebase'],
-  tools: ['XAMPP', 'Docker', 'Git', 'GitHub', 'Android Studio', 'REST APIs', 'GitHub Copilot', 'Claude', 'Gemini', 'Canva'],
+  databases: ['MongoDB', 'Firebase Firestore', 'MySQL'],
+  tools: ['XAMPP', 'Docker', 'Git', 'GitHub', 'Android Studio', 'Firebase Studio', 'REST APIs', 'GitHub Copilot', 'Claude AI', 'Gemini AI', 'Canva Coding'],
 };
 
 export const PROJECTS = [
@@ -31,7 +31,7 @@ export const PROJECTS = [
     title: 'Text Summarization of News Articles',
     description: 'Created an ML-based system that generates concise summaries of long articles. Applied NLP to capture key points and improve readability.',
     techStack: ['Machine Learning', 'NLP'],
-    repoUrl: 'https://github.com/navi-siddu-1103',
+    repoUrl: 'https://github.com/navi-siddu-1103/news_summarizer.git',
     liveUrl: '#',
     image: '/images/text-summarization.svg',
     dataAiHint: 'news article',
@@ -40,7 +40,7 @@ export const PROJECTS = [
     title: 'AI-Powered E-Commerce Website',
     description: 'Engineered an e-commerce site with Firebase Authentication, Firestore, and Hosting. Optimized product search & recommendations using AI-assisted development. Designed responsive UI with Canva & Gemini.',
     techStack: ['Firebase', 'React', 'AI'],
-    repoUrl: 'https://github.com/navi-siddu-1103',
+    repoUrl: 'https://github.com/navi-siddu-1103/ShopSphere.git',
     liveUrl: '#',
     image: '/images/ecommerce-ai.svg',
     dataAiHint: 'online store',
@@ -49,7 +49,7 @@ export const PROJECTS = [
     title: 'Voice-Controlled PDF Reader',
     description: 'Implemented speech recognition APIs for PDF navigation. Enabled page-turning, scrolling, and quick navigation via voice commands.',
     techStack: ['Speech Recognition', 'PDF Processing', 'JavaScript'],
-    repoUrl: 'https://github.com/navi-siddu-1103',
+    repoUrl: 'https://github.com/navi-siddu-1103/voice-controlled-pdf-reader.git',
     liveUrl: '#',
     image: '/images/voice-pdf-reader.svg',
     dataAiHint: 'pdf reader',
@@ -58,7 +58,7 @@ export const PROJECTS = [
     title: 'Real-Time Chat Application',
     description: 'Built with Node.js, Socket.io, and Firebase for real-time messaging. Implemented authentication and message persistence.',
     techStack: ['Node.js', 'Socket.io', 'Firebase'],
-    repoUrl: 'https://github.com/navi-siddu-1103',
+    repoUrl: 'https://github.com/navi-siddu-1103/wave-chat-application.git',
     liveUrl: '#',
     image: '/images/chat-app.svg',
     dataAiHint: 'chat application',
