@@ -28,6 +28,26 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    title: 'Anna-Seva Portal: E-ration App',
+    description: 'A full-stack web application for digitizing India\'s Public Distribution System (PDS), enabling beneficiaries to locate Fair Price Shops, check stock availability, book ration tokens, and manage complaints. Built with Next.js 15, TypeScript, MongoDB, and Google Maps API, featuring JWT-based authentication, real-time inventory management, and role-based access for distributors and cardholders.',
+    techStack: ['Next.js 15', 'TypeScript', 'MongoDB', 'Google Maps API', 'JWT'],
+    repoUrl: 'https://github.com/navi-siddu-1103',
+    liveUrl: '#',
+    image: '/images/anna-seva-portal.svg',
+    dataAiHint: 'e-ration public distribution system',
+    timeline: 'Sept 2025 - Present',
+  },
+  {
+    title: 'AetherCare (MediConnect AI)',
+    description: 'Designed a smart healthcare system integrating hospital locator (with doctor availability), AI-based skin disease detection, and multilingual blood report analysis for better accessibility. Enhanced patient experience through an intelligent chatbot delivering clear, actionable medical insights.',
+    techStack: ['Next.js', 'AI/ML', 'Node.js', 'Google Maps API', 'Firebase', 'NLP'],
+    repoUrl: 'https://github.com/navi-siddu-1103',
+    liveUrl: '#',
+    image: '/images/aethercare-mediconnect.svg',
+    dataAiHint: 'healthcare AI medical assistant',
+    timeline: 'Mar 2025 - Present',
+  },
+  {
     title: 'Text Summarization of News Articles',
     description: 'Created an ML-based system that generates concise summaries of long articles. Applied NLP to capture key points and improve readability.',
     techStack: ['Machine Learning', 'NLP'],

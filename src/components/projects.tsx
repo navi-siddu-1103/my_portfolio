@@ -5,7 +5,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription }
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { PROJECTS } from '@/lib/data';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink, Calendar } from 'lucide-react';
 
 export function Projects() {
   return (
@@ -26,7 +26,13 @@ export function Projects() {
                 />
               </div>
               <CardTitle className="text-lg sm:text-xl font-bold text-primary line-clamp-2">{project.title}</CardTitle>
-              <CardDescription className="text-sm sm:text-base line-clamp-3">{project.description}</CardDescription>
+              {project.timeline && (
+                <div className="flex items-center gap-2 mt-2 text-xs sm:text-sm text-muted-foreground">
+                  <Calendar className="h-3 w-3 sm:h-4 sm:w-4" />
+                  <span>{project.timeline}</span>
+                </div>
+              )}
+              <CardDescription className="text-sm sm:text-base line-clamp-3 mt-2">{project.description}</CardDescription>
             </CardHeader>
             <CardContent className="flex-grow p-4 sm:p-6 pt-0">
               <div className="space-y-3">
