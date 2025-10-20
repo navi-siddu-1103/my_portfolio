@@ -33,7 +33,7 @@ export const PROJECTS = [
     techStack: ['Next.js 15', 'TypeScript', 'MongoDB', 'Google Maps API', 'JWT'],
     repoUrl: 'https://github.com/navi-siddu-1103',
     liveUrl: '#',
-    image: '/images/anna-seva-portal.jpeg',
+    image: '/images/anna-seva-portal.jpeg', 
     dataAiHint: 'e-ration public distribution system',
     timeline: 'Sept 2025 - Present',
   },
