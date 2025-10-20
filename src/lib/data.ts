@@ -33,7 +33,7 @@ export const PROJECTS = [
     techStack: ['Next.js 15', 'TypeScript', 'MongoDB', 'Google Maps API', 'JWT'],
     repoUrl: 'https://github.com/navi-siddu-1103',
     liveUrl: '#',
-    image: '/images/anna-seva-portal.jpeg', 
+    image: '/my_portfolio/images/anna-seva-portal.jpeg', 
     dataAiHint: 'e-ration public distribution system',
     timeline: 'Sept 2025 - Present',
   },
@@ -43,7 +43,7 @@ export const PROJECTS = [
     techStack: ['Next.js', 'AI/ML', 'Node.js', 'Google Maps API', 'Firebase', 'NLP'],
     repoUrl: 'https://github.com/navi-siddu-1103',
     liveUrl: '#',
-    image: '/images/aethercare-mediconnect.jpeg',
+    image: '/my_portfolio/images/aethercare-mediconnect.jpeg',
     dataAiHint: 'healthcare AI medical assistant',
     timeline: 'Mar 2025 - Present',
   },
@@ -53,7 +53,7 @@ export const PROJECTS = [
     techStack: ['Machine Learning', 'NLP'],
     repoUrl: 'https://github.com/navi-siddu-1103/news_summarizer.git',
     liveUrl: '#',
-    image: '/images/text-summarization.svg',
+    image: '/my_portfolio/images/text-summarization.svg',
     dataAiHint: 'news article',
   },
   {
@@ -62,7 +62,7 @@ export const PROJECTS = [
     techStack: ['Firebase', 'React', 'AI'],
     repoUrl: 'https://github.com/navi-siddu-1103/ShopSphere.git',
     liveUrl: '#',
-    image: '/images/ecommerce-ai.svg',
+    image: '/my_portfolio/images/ecommerce-ai.svg',
     dataAiHint: 'online store',
   },
   {
@@ -71,7 +71,7 @@ export const PROJECTS = [
     techStack: ['Speech Recognition', 'PDF Processing', 'JavaScript'],
     repoUrl: 'https://github.com/navi-siddu-1103/voice-controlled-pdf-reader.git',
     liveUrl: '#',
-    image: '/images/voice-pdf-reader.jpeg',
+    image: '/my_portfolio/images/voice-pdf-reader.jpeg',
     dataAiHint: 'pdf reader',
   },
   {
@@ -80,7 +80,7 @@ export const PROJECTS = [
     techStack: ['Node.js', 'Socket.io', 'Firebase'],
     repoUrl: 'https://github.com/navi-siddu-1103/chat-application.git',
     liveUrl: '#',
-    image: '/images/chat-app.jpeg',
+    image: '/my_portfolio/images/chat-app.jpeg',
     dataAiHint: 'chat application',
   },
 ];
