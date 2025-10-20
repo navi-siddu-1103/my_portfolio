@@ -53,7 +53,7 @@ export const PROJECTS = [
     techStack: ['Machine Learning', 'NLP'],
     repoUrl: 'https://github.com/navi-siddu-1103/news_summarizer.git',
     liveUrl: '#',
-    image: '/my_portfolio/images/text-summarization.svg',
+    image: '/my_portfolio/images/text-summarization.jpeg',
     dataAiHint: 'news article',
   },
   {
@@ -62,7 +62,7 @@ export const PROJECTS = [
     techStack: ['Firebase', 'React', 'AI'],
     repoUrl: 'https://github.com/navi-siddu-1103/ShopSphere.git',
     liveUrl: '#',
-    image: '/my_portfolio/images/ecommerce-ai.svg',
+    image: '/my_portfolio/images/ecommerce-ai.jpeg',
     dataAiHint: 'online store',
   },
   {
